@@ -140,6 +140,7 @@ input[type="submit"]:active{
 #login-container {       
     border-radius: 0px; 
     width: 100vw;
+    height: auto;
     height: 100vh;         
     margin-top: 0;         
     }

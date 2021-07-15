@@ -149,5 +149,19 @@ input[type="submit"]:active{
     border-radius: 0px;   
 }
 
+#social-container {
+    background: rgba(0,0,0, 0.7);   
+    margin-top: 0vh;
+    margin-bottom: 0vh;
+    padding: 20px 30px;
+    border-radius: 0px;   
+}
 
+#register-container {
+    background: rgba(0,0,0, 0.7);    
+    margin-top: 0vh;
+    margin-bottom: 0vh;
+    padding: 20px 30px;
+    border-radius: 0px;   
+}
 }

@@ -139,15 +139,12 @@ input[type="submit"]:active{
 }
 
 @media screen and (max-width: 480px) {
-#login-container {
-    background-color: rgba(0,0,0, 0.7);
-    background-size: cover;
-    position: relative;   
-    padding: 30px 30px; 
-    border-radius: 0px; 
+#login-container {            
     width: 100%;
-    height: auto;     
-    margin-top: 0vh;       
+    height: 100%;     
+    margin-top: 0vh; 
+    border-radius: 0px;    
+    padding: 20px 30px;    
     }
 
 }

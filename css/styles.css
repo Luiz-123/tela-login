@@ -142,7 +142,8 @@ input[type="submit"]:active{
     width: 100vw;
     height: auto;
     height: 100vh;         
-    margin-top: 0;         
+    margin-top: 0;    
+    margin-bottom: 0;      
     }
 
 }

@@ -40,7 +40,7 @@ a:hover{
 }
 
 /* Container Login */
-.login-container{
+#login-container{
     background: rgba(0,0,0, 0.7);
     box-shadow: 1px 2px 50px #fff, 2px 6px 100px #fff;
     /*padding: 50px 20px;*/
@@ -141,12 +141,13 @@ input[type="submit"]:active{
 }
 
 @media screen and (max-width: 480px) {
-.login-container {        
+#login-container {        
     padding: 20px 30px; 
     border-radius: 0px; 
     margin-top: 0vh;
     width: 100vw;    
-    height: 100vh;               
+    height: 100vh;   
+    height: auto;            
     }
 
 }

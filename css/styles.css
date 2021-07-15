@@ -141,13 +141,13 @@ input[type="submit"]:active{
 #login-container {    
     background-color: rgba(0,0,0, 0.7);  
     background-repeat: no-repeat;   
-    background-size: cover;
+    background-size: auto !important;
     position: relative;   
     padding: 20px 30px; 
     border-radius: 0px; 
     width: 100%;
     height: auto;
-    min-height: 100% !important;     
+    height: 100% !important;     
     margin-top: 0vh;      
     }
 

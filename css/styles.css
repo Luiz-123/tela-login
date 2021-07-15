@@ -11,16 +11,12 @@
 }
 
 body{
+    
     background-image: url('../img/background2.jpg');
-    background-size: cover;
-    /*background-position-y: -600px;*/
-    position: relative;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    width: 100vw;
-    background-color: white;   
     background-repeat: no-repeat;
+    background-attachment: fixed;
+    /* e agora a regra de ouro que fará a imagem ocupar todo o viewport */
+    background-size: 100% 100%;
 }
 
 textarea:focus, input:focus{
@@ -144,10 +140,8 @@ input[type="submit"]:active{
 #login-container {       
     border-radius: 0px; 
     width: 100vw;
-    height: 100vh;     
-    
-    margin-top: 0;      
-    margin-bottom: 0; 
+    height: 100vh;         
+    margin-top: 0;         
     }
 
 }

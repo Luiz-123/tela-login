@@ -20,7 +20,7 @@ body{
     height: 100vh;
     width: 100vw;
     background-color: white;   
-    /*background-repeat: no-repeat;*/
+    background-repeat: no-repeat;
 }
 
 textarea:focus, input:focus{
@@ -141,13 +141,12 @@ input[type="submit"]:active{
 }
 
 @media screen and (max-width: 480px) {
-#login-container {   
-    padding: 20px 30px; 
+#login-container {       
     border-radius: 0px; 
-    width: 100%;
-    height: 100%;     
+    width: 100vw;
+    height: 100vh;     
     height: auto;
-    margin-top: 0vh;       
+    margin-top: 0;        
     }
 
 }

@@ -145,6 +145,13 @@ input[type="submit"]:active{
     height: auto;
     margin-top: 0;      
     }
+body {
+    background-image: url('../img/background3.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    /* e agora a regra de ouro que fará a imagem ocupar todo o viewport */
+    background-size: 100% 100%;
+}
 
 }
 

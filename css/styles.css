@@ -146,7 +146,7 @@ input[type="submit"]:active{
     margin-top: 0;      
     }
 body {
-    background-image: url('../img/background3.jpg');
+    background-image: url('../img/background4.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
     /* e agora a regra de ouro que fará a imagem ocupar todo o viewport */

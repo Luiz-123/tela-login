@@ -12,9 +12,9 @@
 
 body{
     
-    background-image: url('../img/background2.jpg');
+    background-image: url('../img/background.jpg');
     background-repeat: no-repeat;
-    background-attachment: fixed;
+    background-attachment: fixed;   
     /* e agora a regra de ouro que fará a imagem ocupar todo o viewport */
     background-size: 100% 100%;
 }
@@ -34,6 +34,16 @@ a{
 a:hover{
     color: #FFA500;
 }
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #f8dba4;    
+    }
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: #f8dba4;
+    }    
+::-ms-input-placeholder { /* Microsoft Edge */
+    color: #f8dba4;
+    }
 
 /* Container Login */
 #login-container{
@@ -138,21 +148,14 @@ input[type="submit"]:active{
 }
 
 @media screen and (max-width: 480px) {
-#login-container {       
+#login-container {      
+    background: rgba(0,0,0, 0.5); 
     border-radius: 0px; 
     width: 100vw;
     height: 100vh;     
     height: auto;
     margin-top: 0;      
     }
-body {
-    background-image: url('../img/background3.jpg');
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    /* e agora a regra de ouro que fará a imagem ocupar todo o viewport */
-    background-size: 100% 100%;
-}
-
 }
 
 @media only screen and (min-width: 480px) and (max-width: 760px) {
@@ -161,7 +164,7 @@ body {
 }
 
 body {
-    background-image: url('../img/background3.jpg');
+    background-image: url('../img/background.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
     /* e agora a regra de ouro que fará a imagem ocupar todo o viewport */
